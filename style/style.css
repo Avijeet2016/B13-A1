@@ -38,6 +38,10 @@ body {
     margin-right: 32px;
     max-width: 367px;
     color: #000000;
+    font-weight: 500;
+}
+.header-content nav a:hover {
+    color: #469165;
 }
 .btn-header {
     color: #FFFFFF;
@@ -223,17 +227,17 @@ body {
     width: 100%;
 }
 
-.site-knowledge h4 {
+.knowledge-content h4 {
     color: #469165;
     margin-bottom: 16px;
 }
-.site-knowledge h1 {
+.knowledge-content h1 {
     color: #001931;
     font-size: 48;
     font-weight: bold;
     margin-bottom: 16px;
 }
-.site-knowledge p {
+.knowledge-content p {
     color: #627382;
     line-height: 20px;
     margin-bottom: 40px;
