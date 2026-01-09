@@ -228,10 +228,7 @@ body {
     max-width: 700px;
     width: 100%;
 }
-.knowledge-content {
-    
-    /* border: 1px solid green; */
-}
+
 .site-knowledge h4 {
     color: #469165;
     margin-bottom: 16px;
@@ -247,12 +244,7 @@ body {
     line-height: 20px;
     margin-bottom: 40px;
 }
-/* .knowledge-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
+
 .knowledge-list ul {
     list-style: none;
     margin: 0;
@@ -304,9 +296,33 @@ body {
 .thinking-btn .btn-last:hover {
     color: #2ebe6a;
 }
-.thinking-btn .btn-last {
 
-}
 .thinking-btn p {
     color: #627382;
 }
+.site-footer {
+    background-color: #001931;
+    
+}
+.footer-content {
+    padding: 120px 120px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-img {
+    max-width: 350px;
+}
+.footer-links {
+    max-width: 220px;
+    color: #FFFFFF;
+}
+.footer-links p {
+    padding-bottom: 16px;
+}
+.site-copyright {
+    text-align: center;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+}
+
+
