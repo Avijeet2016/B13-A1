@@ -6,7 +6,7 @@
 /* Shared Style  */
 body {
     background-color: rgb(21, 177, 27);
-    
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -14,7 +14,6 @@ body {
     max-width: 1360px;
     margin: 0 auto;
 }
-
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -39,6 +38,7 @@ body {
     columns: #000000;
     margin-right: 32px;
     max-width: 367px;
+    color: #000000;
 }
 .btn-header {
     color: #FFFFFF;
@@ -54,3 +54,80 @@ body {
 .btn-header:hover {
     color: #2ecc71;
 }
+
+.hero {
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 115px 120px 179px;
+}
+.hero-content {
+    text-align: center;
+}
+.btn-hero1 {
+    color: #469165;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    font-weight: 600;
+    box-shadow: 0 4px 4px 0 #00000025;
+    border: none;
+    cursor: pointer;
+    max-width: 229px;
+    margin: 0 auto;
+}
+.btn-hero1:hover {
+    color: #2ebe6a;
+}
+.hero-subject {
+    max-width: 770px;
+    line-height: 84px;
+    margin: 16px auto;
+}
+.hero-subject .hero-subject-1st {
+    color: #FFFFFF;
+    font-size: 72px;
+}
+.hero-subject .hero-subject-2nd {
+    color: #30B868;
+    font-size: 72px;
+}
+.hero-content p {
+    padding-bottom: 32px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-wrap: balance;
+}
+.btn-hero2 {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 0 auto; */
+}
+
+.btn-hero2 .btn-1st {
+    color: #FFFFFF;
+    background-color: #469165;
+    font-weight: 600;
+    max-width: 251px;
+    padding: 16px 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 10px 20px -12px #00000010;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-hero2 .btn-2nd {
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    padding: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    max-width: 198px;
+    border-radius: 4px;
+}
+
+
